@@ -3,10 +3,9 @@
     --color-primary: #2193f6;
 }
 body {
-    font-family: 'Roboto'sans-serif;
+    font-family: 'Roboto',sans-serif;
     font-style: normal;
     color: #212121;
-
 }
 .logo {
     color: #2193f3;
@@ -14,11 +13,17 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
-.nav-list {
+.nav-list, .list {
     color: #212121;
+    text-decoration: none;
+    list-style: none;
+    line-height: 0.9;
+    list-style: none;
+   
 }
 .nav-list .list:hover,
 .nav-list .list:focus {
@@ -28,8 +33,10 @@ body {
     color: #757575;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.9;
     letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style: none;
 }
 .email, .phone:hover,
 .email, .phone:focus {
@@ -47,7 +54,7 @@ body {
     color: #fff;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -59,7 +66,7 @@ body {
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 1.5;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -71,42 +78,59 @@ body {
 }
 .features-list {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 0.9;
+    list-style: none;
 }
 .features-text {
     font-size: 14px;
     color: #757575;
+    line-height: 1.7;
+}
+.examples-list {
+    list-style: none;
+    line-height: 1.2;
 }
 .our_team {
     
 }
 .team-title {
     font-size: 36px;
-    line-height: ;
+    line-height: 1.2;
 }
 .our_team-list {
-
+    list-style: none;
 }
 .team_members {
     font-size: 16px;
-    line-height: ;
+    line-height: 1.2;
 }
 .team-text {
     font-size: 16px;
-    line-height: ;
+    line-height: 1.2;
     color: #757575;
 }
 .footer {
     background-color: #2f303a;
     color: #fff;
+    list-style: none;
+    text-decoration: none;
 }
 .address-text {
     font-size: 14px;
-    line-height: ;
+    line-height: 0.5;
+    list-style: none;
+    text-decoration: none;
+}
+.address-list {
+    list-style: none;
+}
+.address-list-footer {
+    list-style: none;
 }
 .button-list .list {
     font-weight: 500;
     font-size: 16px; 
+    list-style: none;
 }
 .project_title {
     color: #212121;
